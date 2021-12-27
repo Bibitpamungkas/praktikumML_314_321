@@ -14,6 +14,8 @@ Overview dataset :
 -Jumlah data gambar keseluruhan 7135 image, dan dibagi menjadi 3 yaitu train, test, val. jumlah nilai di dalamnya yaitu pada label train 6326 images, label test 771 images, dan label val 38 images.
 
 
+
+
 ---**Modul 2**---- 
 - Jumlah splititng data set yaitu 
 Data COVID19 Train : 460
@@ -146,6 +148,8 @@ None
     accuracy                           1.00        10
    macro avg       1.00      1.00      1.00        10
 weighted avg       1.00      1.00      1.00        10
+
+
 
 
 
@@ -341,6 +345,8 @@ new_model2.summary()
 
 
 
+
+
 ----**Modul 4**------
 - Jumlah splititng data set yaitu 
 Data COVID19 Train : 460
@@ -495,6 +501,8 @@ weighted avg       0.80      0.77      0.75       771
 ![Accuracy(2)](https://user-images.githubusercontent.com/50208514/143838898-16123232-f9ea-4c5a-bc42-7ad47bc36180.png)
 
 
+
+
 -----**Modul 5**---
 - Jumlah splititng data set yaitu 
 Data COVID19 Train : 460
@@ -630,6 +638,10 @@ weighted avg       0.75      0.74      0.74       771
 
 **Loss Model 2** : ![image](https://user-images.githubusercontent.com/50207475/147220000-a50f8230-2fa6-4a8d-a088-acc162d2437d.png)
 **Accuracy Model 1** : ![image](https://user-images.githubusercontent.com/50207475/147220017-1181c26e-057a-46bc-b850-a194e6bc125d.png)
+
+# (to generate a SavedModel) 
+tf.saved_model.save(model, "saved_model_keras_dir")
+
 
 
 --------**Modul 6**---------- 
