@@ -308,3 +308,7 @@ weighted avg       0.75      0.74      0.74       771
 Loss Model 2 : ![image](https://user-images.githubusercontent.com/50207475/147220000-a50f8230-2fa6-4a8d-a088-acc162d2437d.png)
 Accuracy Model 1 : ![image](https://user-images.githubusercontent.com/50207475/147220017-1181c26e-057a-46bc-b850-a194e6bc125d.png)
 
+
+Modul 6 :
+Menggunakan 2 Training Model yaitu Pretrained model VGG16 dan Model manual Sequintial
+Link Heroku : https://mod6.herokuapp.com/
