@@ -16,7 +16,7 @@ Overview dataset :
 
 
 
----**Modul 2**---- 
+# ---**Modul 2**---- 
 - Jumlah splititng data set yaitu 
 Data COVID19 Train : 460
 Data COVID19 Validation : 10
@@ -52,7 +52,7 @@ for r, d, f in os.walk(train) :
 train_data = np.array(train_data)
 train_label = np.array(train_label)
 
-# Gather data validation
+#Gather data validation
 val_data = []
 val_label = []
 for r, d, f in os.walk(validation) :
@@ -340,7 +340,7 @@ import tensorflow as tf
 model2.save('model3.h5')
 new_model2 = tf.keras.models.load_model('model3.h5')
 
-# Show the model architecture
+-Show the model architecture
 new_model2.summary()
 
 
@@ -639,7 +639,7 @@ weighted avg       0.75      0.74      0.74       771
 **Loss Model 2** : ![image](https://user-images.githubusercontent.com/50207475/147220000-a50f8230-2fa6-4a8d-a088-acc162d2437d.png)
 **Accuracy Model 1** : ![image](https://user-images.githubusercontent.com/50207475/147220017-1181c26e-057a-46bc-b850-a194e6bc125d.png)
 
-# (to generate a SavedModel) 
+(to generate a SavedModel) 
 tf.saved_model.save(model, "saved_model_keras_dir")
 
 
