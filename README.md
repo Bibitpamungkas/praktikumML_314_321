@@ -71,7 +71,7 @@ val_label = np.array(val_label)
 **-Model 1**
 Model: "sequential_2"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 conv2d_6 (Conv2D)            (None, 150, 150, 16)      448       
 _________________________________________________________________
@@ -112,7 +112,7 @@ weighted avg       1.00      1.00      1.00        10
 **Model 2**
 Model: "sequential_3"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 conv2d_9 (Conv2D)            (None, 150, 150, 16)      448       
 _________________________________________________________________
@@ -183,7 +183,7 @@ augmen_gen = ImageDataGenerator(rescale=1 / 255,
                                 fill_mode='nearest')
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 conv2d (Conv2D)              (None, 200, 200, 32)      896       
 _________________________________________________________________
@@ -236,7 +236,7 @@ weighted avg       0.67      0.65      0.64       771
 **Model 2**
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 conv2d (Conv2D)              (None, 200, 200, 32)      896       
 _________________________________________________________________
@@ -287,7 +287,7 @@ weighted avg       0.81      0.79      0.79       771
 **Model 3**
 Model: "sequential_2"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param    
 =================================================================
 conv2d_6 (Conv2D)            (None, 200, 200, 32)      896       
 _________________________________________________________________
@@ -386,7 +386,7 @@ train_aug = augmen_gen.flow_from_directory(
 -Model 1
 Model: "sequential"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param    
 =================================================================
  conv2d (Conv2D)             (None, 250, 250, 64)      1792      
                                                                  
@@ -445,7 +445,7 @@ weighted avg       0.78      0.67      0.65       771
 **-Model 2**
 Model: "sequential_1"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param    
 =================================================================
  conv2d_3 (Conv2D)           (None, 250, 250, 32)      896       
                                                                  
@@ -550,7 +550,7 @@ test_aug = augmen_gen.flow_from_directory(
 -Model pretrained yang digunakan VGG19 dengan menggunakan beberapa layers yaitu InputLayer, Dense, Conv2D, MaxPool2D, Flatten
 Model: "model"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param    
 =================================================================
  input_1 (InputLayer)        [(None, 50, 50, 3)]       0         
                                                                  
